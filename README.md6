@@ -1,0 +1,103 @@
+# Project 3: Data Visualization
+
+
+Project3-for3 Team: Albert Dudek, Kelly McDonald, Kyle Murphy, Lamin Barrow, Maria Alsayed, and Ashok Goyal.
+
+
+# Topic: Basketball - Three-Point Shooting
+
+
+Our goal in this project is to investigate whether there is any correlation between winning percentage and three-point shooting percentage in the NBA.
+
+We used NBA API (https://pypi.org/project/nba-api/) to generate data for 7 NBA teams from 1979 to 2022 and used Jupyter Notebook to generate outputs.
+
+The seven teams are:
+                    Boston Celtics (https://www.nba.com/celtics)
+                    Chicago Bulls (https://www.nba.com/bulls)
+                    Cleveland Cavaliers (https://www.nba.com/cavaliers)
+                    Los Angeles Lakers (https://www.nba.com/lakers)
+                    Golden State Warriors (https://www.nba.com/lakers)
+                    New York Knicks (https://www.nba.com/knicks)
+                    San Antonio Spurs (https://www.nba.com/spurs)
+
+# Methodology/Process
+
+Finding API (Data Sourcing):
+It was challenging finding a data source for our project at the beginning. We were finally able to choose NBA API (https://pypi.org/project/nba-api/) as our data source. 
+NBA API was a great data source for our project as we were able to retrieve the desired data for our purpose of looking into whether there is any correlation between winning 
+percentage and three-point shooting percentage in the NBA.
+
+Data collection and cleaning:
+Jupiter notebook (NBA.ipynb) was created to write codes to retrieve data from the API and to produce output results. The data collection was followed by the data cleaning process. 
+We were able to generate data for winning percentage and three-point shooting percentage. Visuals were generated to visualize the percentages.
+
+MongoDB was also created and used as our database to house our data. Our visualization included HTML/CSS, JavaScript. All are stored or uploaded in GitHub at
+ https://github.com/albertdudek7/Project3-for3/tree/main/JavaScript for reference.
+
+
+
+# THe following is the Correlation Statistics for the seven teams (Spurs, Lakers, Bulls, Knicks,Warriors, Celtics, and Cavaliers):
+Spurs –
+Correlation between Winning% and Three-Point%: 0.30571022485066235
+Correlation between Three-Point Attempts and Winning%: 0.1059790579688146
+Correlation between Three-Point Attempts and Playoff Wins: 0.16441884850534627
+
+Lakers –
+Correlation between Winning% and Three-Point%: -0.17147269664555959
+Correlation between Three-Point Attempts and Winning%: -0.5201495112051893
+Correlation between Three-Point Attempts and Playoff Wins: -0.36728697351639705
+
+Bulls – 
+Correlation between Winning% and Three-Point%: 0.2438290416883975
+Correlation between Three-Point Attempts and Winning%: -0.032099328989375744
+Correlation between Three-Point Attempts and Playoff Wins: -0.14035092256639817
+
+Knicks –
+Correlation between Winning% and Three-Point%: -0.008975277417342456
+Correlation between Three-Point Attempts and Winning%: -0.12458849331816445
+Correlation between Three-Point Attempts and Playoff Wins: -0.15193430058289498
+
+Warriors –
+Correlation between Winning% and Three-Point%: 0.28205778423756933
+Correlation between Three-Point Attempts and Winning%: 0.5000683392571555
+Correlation between Three-Point Attempts and Playoff Wins: 0.6151981080520271
+
+Celtics –
+Correlation between Winning% and Three-Point%: -0.30383877379569646
+Correlation between Three-Point Attempts and Winning%: -0.18395168518633204
+Correlation between Three-Point Attempts and Playoff Wins: 0.043523122738664495
+
+Cavaliers – 
+Correlation between Winning% and Three-Point%: 0.413910997047577
+Correlation between Three-Point Attempts and Winning%: 0.3007539758838012
+Correlation between Three-Point Attempts and Playoff Wins: 0.4882634110950264
+
+
+Analysis and conclusion:
+It is clear that the NBA has changed drastically with the evolution of the 3-point shot. 
+Our data clearly shows that the 3-point attempts have significantly increased every decade. 
+The Warriors do show a high correlation 3-point attempts and winning the championships. 
+Within our dataset we had a few outliers, one of them is the LA Lakers who attempted fewer 3-point shots and they won games by having notable players like Magic Johnson, Kobe Bryant 
+The NBA’s popularity is growing. In 2022, the league’s games reached 1.5 billion people in 215 countries and territories. This represents a 30% increase in viewership from 2017.
+
+
+
+Option for Presentation - GoogleDoc
+Presentation Link: https://docs.google.com/presentation/d/1X5-enzY1sQlQH-Mgd_mLKipQBaocCruFIkdRLoh_Uzs/edit#slide=id.g5864d993_0_17
+
+
+
+Resources:
+https://pypi.org/project/nba-api/
+https://www.sloansportsconference.com/
+
+Ref: www.pinnacle.com/en/betting-articles/basketball/three-point-shots-nba/vpn2mlsadyw5fpzl
+
+
+------------------------------------------------------------------------------
+
+
+© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+
+
